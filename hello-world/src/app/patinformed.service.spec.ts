@@ -1,13 +1,12 @@
 import { TestBed } from '@angular/core/testing';
-
-import { PatService } from './pat.service';
+import { PatInformedService } from './patinformed.service';
 
 describe('PatService', () => {
-  let service: PatService;
+  let service: PatInformedService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(PatService);
+    service = TestBed.inject(PatInformedService);
   });
 
   it('should be created', () => {
